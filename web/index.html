@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>2D Adventure — Web Edition</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="shell">
+    <h1>2D Adventure</h1>
+    <p class="hint">Arrow keys / WASD to move · Space or J to attack · P to pause</p>
+    <div class="game-frame">
+      <canvas id="game" width="960" height="576" aria-label="2D Adventure game"></canvas>
+      <div id="loading">Loading map and assets…</div>
+    </div>
+    <p id="status" class="status">Click the game, then press Enter to start.</p>
+  </main>
+  <script src="game.js"></script>
+</body>
+</html>
